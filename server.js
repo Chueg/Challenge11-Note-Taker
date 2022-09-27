@@ -18,7 +18,7 @@ app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
-const PORT = 3001;
+const PORT = 3001 || process.env.PORT ;
 
 
 app.listen(PORT, () => {
