@@ -8,9 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "heroku": "^7.63.4",
+    "node": "^18.9.1"
   },
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
